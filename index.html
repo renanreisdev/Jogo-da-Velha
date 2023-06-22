@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <header>
+        <h1>Jogo da Velha</h1>
+
+        <div class="score">
+            <div class="score--x active">
+                <p>X</p> <p class="victories">-</p>
+            </div>
+            <div class="score--o">
+                <p>O</p> <p class="victories">-</p>
+            </div>
+            <p>Vez de <span>X</span></p>
+        </div>
+    </header>
+
+    <section>
+        <div class="area">
+            <div data-item="a1" class="item border-right border-bottom active">X</div>
+            <div data-item="a2" class="item border-right border-bottom active" active>X</div>
+            <div data-item="a3" class="item border-bottom">O</div>
+    
+            <div data-item="b1" class="item border-right border-bottom">O</div>
+            <div data-item="b2" class="item border-right border-bottom active">X</div>
+            <div data-item="b3" class="item border-bottom">O</div>
+    
+            <div data-item="c1" class="item border-right">O</div>
+            <div data-item="c2" class="item border-right">O</div>
+            <div data-item="c3" class="item active">X</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por: <strong>Renan M. Reis</strong> - 2023</p>
+    </footer>
+
+    <a href="https://github.com/renanreisdev" class="github">
+        <div>
+            <img src="./assets/images/github.png" alt="imagem do github" width="75">
+            <p>Meu GitHub</p>
+        </div>
+    </a>
+</body>
+</html>
