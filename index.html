@@ -9,32 +9,44 @@
 </head>
 <body>
     <header>
-        <h1>Jogo da Velha</h1>
+        <button class="reset">Reiniciar</button>
 
         <div class="score">
-            <div class="score--x active">
+            <div class="score--x">
                 <p>X</p> <p class="victories">-</p>
             </div>
             <div class="score--o">
                 <p>O</p> <p class="victories">-</p>
             </div>
-            <p>Vez de <span>X</span></p>
+            <p class="info">Vez de X</p>
         </div>
     </header>
 
     <section>
+        <div class="area-line">
+            <div class="line-horizontal h1 line0"></div>
+            <div class="line-horizontal h2 line1"></div>
+            <div class="line-horizontal h3 line2"></div>
+
+            <div class="line-vertical v1 line3"></div>
+            <div class="line-vertical v2 line4"></div>
+            <div class="line-vertical v3 line5"></div>
+
+            <div class="line-transverse t1 line6"></div>
+            <div class="line-transverse t2 line7"></div>
+        </div>
         <div class="area">
-            <div data-item="a1" class="item border-right border-bottom active">X</div>
-            <div data-item="a2" class="item border-right border-bottom active" active>X</div>
-            <div data-item="a3" class="item border-bottom">O</div>
+            <div data-item="a1" class="item border-right border-bottom"></div>
+            <div data-item="a2" class="item border-right border-bottom" active></div>
+            <div data-item="a3" class="item border-bottom"></div>
     
-            <div data-item="b1" class="item border-right border-bottom">O</div>
-            <div data-item="b2" class="item border-right border-bottom active">X</div>
-            <div data-item="b3" class="item border-bottom">O</div>
+            <div data-item="b1" class="item border-right border-bottom"></div>
+            <div data-item="b2" class="item border-right border-bottom"></div>
+            <div data-item="b3" class="item border-bottom"></div>
     
-            <div data-item="c1" class="item border-right">O</div>
-            <div data-item="c2" class="item border-right">O</div>
-            <div data-item="c3" class="item active">X</div>
+            <div data-item="c1" class="item border-right"></div>
+            <div data-item="c2" class="item border-right"></div>
+            <div data-item="c3" class="item"></div>
         </div>
     </section>
 
@@ -48,5 +60,7 @@
             <p>Meu GitHub</p>
         </div>
     </a>
+
+    <script src="assets/javascript/script.js"></script>
 </body>
 </html>
