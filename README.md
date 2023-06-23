@@ -8,3 +8,5 @@ Nesse projeto foi criado um jogo da velha, onde pode jogar uma pessoa contra out
 
 
 [Clique aqui para ver o projeto](https://renanreisdev.github.io/Jogo-da-Velha/)
+
+* Projeto do curso B7Web!
